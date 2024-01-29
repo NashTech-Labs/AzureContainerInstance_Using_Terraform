@@ -1,9 +1,9 @@
 location = "eastasia"
-rgname = "Abhishek-rg1"
+rgname = "<your_rg_name>"
 container_group_name = "con-grp"
-container_name = "phpcon"
-image = "abhishek00007/azureapptf:53"
-port = 3000
+container_name = "<container_name>"
+image = "<your_docker_image>"
+port = <port>
 cpu = 1
 memory = 2
 restart_policy = "OnFailure"
